@@ -29,8 +29,7 @@ void chapter2(){
     Calculator multiplier = Calculator(Operation::Multiply);
     std::cout << "The multiplication of 4 * 3 is " << multiplier.calculate(4,3) << std::endl;
 
-
-    Calculator divisor = Calculator(Operation::Divide);
-    std::cout << "The division of 12 / 4 is " << divisor.calculate(12,4) << std::endl;
+    //Calculator divisor = Calculator(Operation::Divide);
+    std::cout << "The division of 12 / 4 is " << Calculator(Operation::Divide).calculate(12,4) << std::endl;
 
 }
