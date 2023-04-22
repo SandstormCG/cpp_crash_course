@@ -7,7 +7,7 @@ enum class Operation{
 
 struct Calculator{
   Calculator(Operation op): operation{op}{}
-  int calculate(int a, int b){
+  int calculate(int a, int b) const {
         switch(operation){
             case Operation::Add: { return a+b; }
             case Operation::Substract: { return a-b; }
