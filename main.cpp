@@ -5,6 +5,7 @@
 #include "chapter_3/pointers.cpp"
 #include "chapter_3/element.cpp"
 #include "chapter_3/auto.cpp"
+#include "chapter_4/TimerClass.cpp"
 
 int main(int argc, char **argv) {
     std::cout << "Hello, world!" << std::endl;
@@ -20,6 +21,9 @@ int main(int argc, char **argv) {
     pointers();
     element();
     exercise_auto();
+    // Chapter 4
+    TimerFunction();
+
 
     return 0;
 }
